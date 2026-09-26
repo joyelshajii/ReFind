@@ -14,7 +14,7 @@ It retrieves matching files through a **5-signal hybrid retrieval pipeline** (ve
 
 ---
 
-## 👥 Team Setup & Quick Start
+## 👥 Setup & Quick Start
 
 Welcome to ReFind! Do NOT commit real API keys to Git.
 
