@@ -20,7 +20,7 @@ Welcome to ReFind! Do NOT commit real API keys to Git.
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/joyelshajii/ReFind.git
 cd ReFind
 ```
 
