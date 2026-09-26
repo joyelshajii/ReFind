@@ -16,7 +16,7 @@ It retrieves matching files through a **5-signal hybrid retrieval pipeline** (ve
 
 ## 👥 Team Setup & Quick Start
 
-The repository is private and shared with teammates. **Do NOT commit real API keys to Git.**
+Welcome to ReFind! Do NOT commit real API keys to Git.
 
 ### 1. Clone the Repository
 ```bash
