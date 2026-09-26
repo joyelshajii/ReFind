@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+:root {
+  --background: #000000;
+  --foreground: #f4f4f6;
+  --card: rgba(8, 10, 16, 0.65);
+  --card-border: rgba(255, 255, 255, 0.08);
+  --accent: #6366f1;
+  --accent-glow: rgba(99, 102, 241, 0.12);
+}
+
+body {
+  background-color: #000000;
+  color: var(--foreground);
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Custom minimal cosmic scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+/* Glassmorphic Space Panels */
+.cosmic-panel {
+  background: rgba(6, 8, 14, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: 0 8px 32px -8px rgba(0, 0, 0, 0.7);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cosmic-panel:hover {
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 12px 40px -10px rgba(0, 0, 0, 0.85), 0 0 20px -5px rgba(99, 102, 241, 0.08);
+}
+
+/* Minimal futuristic inputs */
+.cosmic-input {
+  background: rgba(4, 6, 12, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.8);
+  transition: all 0.25s ease;
+}
+
+.cosmic-input:focus-within {
+  border-color: rgba(140, 165, 255, 0.4);
+  box-shadow: 0 0 0 1px rgba(99, 102, 241, 0.3), 0 0 30px -5px rgba(99, 102, 241, 0.18);
+}
+
+/* Minimal futuristic buttons */
+.cosmic-button {
+  background: rgba(14, 17, 27, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cosmic-button:hover:not(:disabled) {
+  background: rgba(24, 29, 44, 0.95);
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+.cosmic-button-primary {
+  background: rgba(99, 102, 241, 0.2);
+  border: 1px solid rgba(129, 140, 248, 0.35);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 15px -3px rgba(99, 102, 241, 0.2);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cosmic-button-primary:hover:not(:disabled) {
+  background: rgba(99, 102, 241, 0.32);
+  border-color: rgba(165, 180, 252, 0.5);
+  box-shadow: 0 0 25px -2px rgba(99, 102, 241, 0.35);
+}
+
+/* Space-time distortion glow vignette */
+.gravitational-vignette {
+  background: radial-gradient(circle at 50% 50%, transparent 60%, rgba(0, 0, 0, 0.75) 100%);
+  pointer-events: none;
+}

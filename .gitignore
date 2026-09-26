@@ -1,0 +1,89 @@
+# ==========================================
+# Environment variables & local secrets
+# ==========================================
+.env
+.env.*
+*.env
+**/.env
+**/.env.*
+**/*.env
+
+# ==========================================
+# Python caches & bytecode
+# ==========================================
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+**/.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# Virtual environments
+# ==========================================
+.venv/
+**/venv/
+**/env/
+**/ENV/
+
+# ==========================================
+# Node / Frontend caches & build output
+# ==========================================
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# ==========================================
+# SQLite databases & WAL / journal files
+# ==========================================
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+*.sqlite
+*.sqlite3
+**/*.db
+**/*.db-shm
+**/*.db-wal
+**/*.db-journal
+**/*.sqlite
+**/*.sqlite3
+
+# ==========================================
+# Uploaded user files & test storage
+# ==========================================
+storage/uploads/*
+!storage/uploads/.gitkeep
+backend/storage/uploads/*
+!backend/storage/uploads/.gitkeep
+**/storage/uploads/*
+!**/storage/uploads/.gitkeep
+
+# ==========================================
+# Operating System & IDE clutter
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# Logs
+# ==========================================
+*.log
+**/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*

@@ -1,0 +1,3 @@
+AI Ethics and Responsible Computing Principles.
+This document explores responsible AI frameworks, ethical guidelines, fairness in algorithmic decisions, and governance policies in modern machine learning systems.
+Topics covered include bias mitigation, transparency, and accountability.

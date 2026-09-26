@@ -1,0 +1,19 @@
+{
+  "detected_text": [
+    "SYSTEM ARCHITECTURE: IOT & BACKEND INFRASTRUCTURE",
+    "Author: Rahul",
+    "BLE Beacons",
+    "RSSI Telemetry Mesh",
+    "Gateway Services",
+    "FastAPI / Python",
+    "PostgreSQL Database",
+    "pgvector + Spatial",
+    "Architecture notes: BLE packets processed in real-time and persisted to PostgreSQL."
+  ],
+  "visual_description": "Software system architecture diagram illustrating BLE beacon receivers communicating with gateway services and storing spatial coordinate records in a PostgreSQL database.",
+  "metadata": {
+    "author": "Rahul",
+    "date": "February 2026",
+    "category": "architecture_diagram"
+  }
+}
