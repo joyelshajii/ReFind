@@ -7,6 +7,9 @@
 **/.env
 **/.env.*
 **/*.env
+# Allow .env.example template to be tracked
+!.env.example
+!**/.env.example
 
 # ==========================================
 # Python caches & bytecode
